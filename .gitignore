@@ -1,0 +1,23 @@
+# Database (rebuild from scripts)
+data/xi_corpus.db
+data/xi_corpus.db-wal
+data/xi_corpus.db-shm
+
+# Large raw corpora (download via import scripts)
+data/raw/xi_talk_full.json
+data/raw/papersnake_xi_talk.jsonl
+data/raw/xjp_2018.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+
+# Logs (crawler runs)
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
