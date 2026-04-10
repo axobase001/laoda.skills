@@ -80,6 +80,15 @@ CREATE TABLE quotes (
 );
 ```
 
+## 资源文件
+
+本 skill 依赖以下文件（均从 30 万条语料自动提取，非人工编写）：
+
+- **`prompts/xi_persona.md`** — 高频四字短语 Top 100、句式模板、场景分布、开头/结尾模板
+- **`prompts/style_guide.md`** — 典故引用系统分析（哪些典籍、频次、引用规律）
+- **`data/classical_refs.json`** — 引用书目 + 诸子引用的结构化数据
+- **`tools/quote_db.py`** — 语录检索工具，按话题和场景查 xi_corpus.db
+
 ## 采集优先级
 
 1. 新年贺词（2013-至今，共12篇，风格最统一）
