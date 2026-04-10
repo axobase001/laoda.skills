@@ -95,7 +95,7 @@ A new signal type, detailed in `xi-decoder/prompts/context_rules.md`.
 ## Project Structure
 
 ```
-xijinping.skills/                    # Display name: 习近平.SKILL
+laoda.skills/                        # Display name: 习近平.SKILL
 ├── README.md / README_EN.md        # Bilingual docs
 ├── ACKNOWLEDGMENTS.md               # Credits
 ├── .gitignore
@@ -133,8 +133,8 @@ xijinping.skills/                    # Display name: 习近平.SKILL
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/axobase001/xijinping.skills.git
-cd xijinping.skills
+git clone https://github.com/axobase001/laoda.skills.git
+cd laoda.skills
 
 # 2. Install dependencies
 pip install requests beautifulsoup4 lxml datasets

@@ -83,7 +83,7 @@
 ## 项目结构
 
 ```
-xijinping.skills/                   # 项目显示名: 习近平.SKILL
+laoda.skills/                       # 项目显示名: 习近平.SKILL
 ├── README.md / README_EN.md       # 双语说明
 ├── ACKNOWLEDGMENTS.md              # 致谢
 ├── .gitignore
@@ -121,8 +121,8 @@ xijinping.skills/                   # 项目显示名: 习近平.SKILL
 
 ```bash
 # 1. Clone 仓库
-git clone https://github.com/axobase001/xijinping.skills.git
-cd xijinping.skills
+git clone https://github.com/axobase001/laoda.skills.git
+cd laoda.skills
 
 # 2. 装依赖
 pip install requests beautifulsoup4 lxml datasets
